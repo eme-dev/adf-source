@@ -1,0 +1,9 @@
+{
+	"name": "Curso-ADF-Emarchena",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a14f8ea1-9ae1-4dad-9051-d0459c9455f4",
+		"tenantId": "c4a66c34-2bb7-451f-8be1-b2c26a430158"
+	}
+}
