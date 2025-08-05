@@ -20,7 +20,7 @@
 					},
 					{
 						"name": "Destination",
-						"value": "lego//themes.txt"
+						"value": "lego/themes.txt"
 					}
 				],
 				"typeProperties": {
