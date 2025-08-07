@@ -2,7 +2,7 @@
 	"name": "OCRT_Trigger_Traer_Data_Prod_DJ_DJ_DTEX",
 	"properties": {
 		"annotations": [],
-		"runtimeState": "Stopped",
+		"runtimeState": "Started",
 		"pipelines": [],
 		"type": "BlobEventsTrigger",
 		"typeProperties": {
