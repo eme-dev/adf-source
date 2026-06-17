@@ -16,6 +16,10 @@
 				"userProperties": [],
 				"typeProperties": {
 					"command": "/bin/bash -c \"python3 01_carga_clientes.py\"",
+					"resourceLinkedService": {
+						"referenceName": "LS_BLOB_MASS_ETL_DEV",
+						"type": "LinkedServiceReference"
+					},
 					"folderPath": "etl_mass_bi/scripts/clientes",
 					"referenceObjects": {
 						"linkedServices": [],
