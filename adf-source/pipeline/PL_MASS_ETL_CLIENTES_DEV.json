@@ -17,10 +17,10 @@
 				"typeProperties": {
 					"command": "/bin/bash -c \"python3 01_carga_clientes.py\"",
 					"resourceLinkedService": {
-						"referenceName": "LS_BLOB_MASS_ETL_DEV",
+						"referenceName": "AzureBlobStorage1",
 						"type": "LinkedServiceReference"
 					},
-					"folderPath": "etl_mass_bi/scripts/clientes",
+					"folderPath": "etlmassbi/etl_mass_bi/scripts/clientes",
 					"referenceObjects": {
 						"linkedServices": [],
 						"datasets": []
