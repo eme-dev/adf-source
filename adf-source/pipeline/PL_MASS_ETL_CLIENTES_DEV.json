@@ -15,12 +15,12 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"command": "/bin/bash -c \"set -euxo pipefail; pwd; ls -la; python3 -m pip install --user -r requirements.txt; export PYTHONPATH=$PWD; python3 etl_mass_bi/scripts/clientes/01_extract_cliente.py\"",
+					"command": "/bin/bash -c \"python3 01_extract_cliente.py\"",
 					"resourceLinkedService": {
 						"referenceName": "AzureBlobStorage1",
 						"type": "LinkedServiceReference"
 					},
-					"folderPath": "etlmassbi",
+					"folderPath": "etlmassbi/etl_mass_bi/scripts/clientes",
 					"referenceObjects": {
 						"linkedServices": [],
 						"datasets": []
