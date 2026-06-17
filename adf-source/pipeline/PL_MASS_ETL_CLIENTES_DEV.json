@@ -15,7 +15,7 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"command": "/bin/bash -c \"python3 01_carga_clientes.py\"",
+					"command": "/bin/bash -c \"python3 01_extract_cliente.py\"",
 					"resourceLinkedService": {
 						"referenceName": "AzureBlobStorage1",
 						"type": "LinkedServiceReference"
