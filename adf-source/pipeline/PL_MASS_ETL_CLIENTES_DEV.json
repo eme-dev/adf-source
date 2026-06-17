@@ -1,0 +1,33 @@
+{
+	"name": "PL_MASS_ETL_CLIENTES_DEV",
+	"properties": {
+		"activities": [
+			{
+				"name": "ACT_01_CLIENTES_CARGA",
+				"type": "Custom",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"command": "/bin/bash -c \"python3 01_carga_clientes.py\"",
+					"folderPath": "etl_mass_bi/scripts/clientes",
+					"referenceObjects": {
+						"linkedServices": [],
+						"datasets": []
+					}
+				},
+				"linkedServiceName": {
+					"referenceName": "LS_BATCH_MASS_ETL_DEV",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"annotations": []
+	}
+}
