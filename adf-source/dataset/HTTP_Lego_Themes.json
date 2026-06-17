@@ -1,10 +1,6 @@
 {
 	"name": "HTTP_Lego_Themes",
 	"properties": {
-		"linkedServiceName": {
-			"referenceName": "Http_Rebrickable",
-			"type": "LinkedServiceReference"
-		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
